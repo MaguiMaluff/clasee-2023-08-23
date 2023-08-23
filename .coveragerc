@@ -1,0 +1,12 @@
+[run]           ###partes del archivo
+source =        ###fuentes de informacion
+    app
+    tests
+omit =          ###cosas que no se evaluan
+    env/*
+    */test*
+    */__init__.py
+[report]
+exclude_lines =
+    def test_
+    if __name__ == '__main__':
